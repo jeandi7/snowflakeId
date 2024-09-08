@@ -16,12 +16,12 @@ func main() {
 	id := node.Generate()
 
 	// Print out the ID in a few different ways.
-	fmt.Printf("Int64  ID: %d\n", id)
-	fmt.Printf("String ID: %s\n", id)
-	fmt.Printf("Base2  ID: %s\n", id.Base2())
+	fmt.Printf("Int64   ID: %d\n", id)
+	fmt.Printf("String  ID: %s\n", id)
+	fmt.Printf("Base2   ID: %s\n", id.Base2())
 	fmt.Printf("Base36  ID: %s\n", id.Base36())
 	fmt.Printf("Base58  ID: %s\n", id.Base58())
-	fmt.Printf("Base64 ID: %s\n", id.Base64())
+	fmt.Printf("Base64  ID: %s\n", id.Base64())
 	fmt.Printf("Bytes    : %#v\n", id.Bytes())
 	fmt.Printf("IntBytes : %#v\n", id.IntBytes())
 
